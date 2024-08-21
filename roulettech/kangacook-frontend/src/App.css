@@ -1,0 +1,38 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('C:\Users\mbudh\roulettech\kangacook-frontend\public\receipe.jpg');
+  background-color: #2c1f28;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  color: #1f121b;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.search-container {
+  flex: 2;
+  background-color: #1f121b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.featured-container {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
